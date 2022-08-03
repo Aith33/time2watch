@@ -6,15 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FICHE DE l'OEUVRE</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/a82855e3c1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header DefaultPageTitle">
+        <nav class="defaultNav">
             <div class="menubar">
                 <i class="fa-solid fa-bars" class="collapsible"></i>
             </div>
@@ -24,8 +22,7 @@
                 <li><a href="/search.html" class="myButton1"><i class="fa-solid fa-magnifying-glass"></i>RECHERCHER UNE
                         OEUVRE</a></li>
                 <li><a href="/calendar.html" class="myButton1"></a><i class="fa-solid fa-calendar-days"></i>CALENDRIER
-                    DES
-                    SORTIES</a></li>
+                    DES SORTIES</a></li>
                 <li><a href="/suggestions.html" class="myButton1"><i class="fa-solid fa-dice"></i>SUGGESTION
                         D'OEUVRES</a></li>
                 <li><a href="#" class="myButton1"><i class="fa-solid fa-bell"></i>NOTIFICATIONS</a></li>
@@ -38,20 +35,33 @@
                 </div>
             </ul>
         </nav>
-        <h3 class="text-bold">LOREM IPSUM</h3>
+        <h3 class="text-bold">CHARLEMAGNE CONTRE LES NINJAS</h3>
     </header>
 
-    <main id="workPageMain">
-        <h1>Bande-annonce</h1>
-        <h1>Réalisation : </h1>
-        <h1>Année de sortie : </h1>
-        <footer>
-        <button type="button">Enlever</button>
-        <button type="button">Ajouter</button>
-        </footer>
+    <main class="main" id="workPageMain">
+        <article>
+            <header>
+                <div id="trailer">
+                    <iframe src="https://www.youtube.com/embed/1rXbSmO-2lI?controls=0" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <p><span class="text-bold">Réalisateur : </span>Steven Spielberg</p>
+                <p><span class="text-bold">Avec : </span>Mimie Mathy, Tom Cruise</p>
+                <p><span class="text-bold">Année de sortie : </span>2022</p>
+            </header>
+            <section id="plot">
+                <p class="text-italic text-bold">Charlemagne, affronte les terribles ninjas venus faire tomber le royaume des Francs...</p>
+            </section>
+            <footer>
+                    <button type="button">Enlever</button>
+                <button type="button">Ajouter</button>
+            </footer>
+        </article>
     </main>
 
-    <footer class="logoBottomPage">
+    <footer class="footer logoBottomPage">
         <p><img src="medias/logo.png" alt="Logo icon"></p>
 
     </footer>

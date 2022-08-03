@@ -6,19 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIME2WATCH</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/a82855e3c1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="searchbar">
             <input type="search" placeholder="Search">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <nav>
+        <nav class="defaultNav">
             <div class="menubar">
                 <i class="fa-solid fa-bars" class="collapsible"></i>
             </div>
@@ -27,7 +25,7 @@
                 <li><a href="/index.html" class="myButton1"><i class="fa-solid fa-house"></i>ACCUEIL</a></li>
                 <li><a href="/search.html" class="myButton1"><i class="fa-solid fa-magnifying-glass"></i>RECHERCHER UNE
                         OEUVRE</a></li>
-                <li><a href="/calendar.html" class="myButton1"></a><i class="fa-solid fa-calendar-days"></i>CALENDRIER
+                <li><a href="/calendar.html" class="myButton1"><i class="fa-solid fa-calendar-days"></i>CALENDRIER
                     DES
                     SORTIES</a></li>
                 <li><a href="/suggestions.html" class="myButton1"><i class="fa-solid fa-dice"></i>SUGGESTION
@@ -44,17 +42,17 @@
         </nav>
     </header>
 
-    <main>
-        <section class="ongoingSeries">
-            <h3>SÉRIES EN COURS</h3>
+    <main class="main">
+        <section id="ongoingSeries">
+            <h1>SÉRIES EN COURS</h1>
         </section>
 
-        <section class="ongoingFilms">
-            <h3>FILMS EN COURS</h3>
+        <section id="ongoingFilms">
+            <h1>FILMS EN COURS</h1>
         </section>
     </main>
 
-    <footer class="logoBottomPage">
+    <footer class="footer logoBottomPage">
         <p><img src="medias/logo.png" alt="Logo icon"></p>
 
     </footer>

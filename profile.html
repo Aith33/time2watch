@@ -6,44 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROFIL</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/a82855e3c1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="goBack"><input type="image" src="medias/left-arrow.png"></li>
-            </ul>
-        </nav>
+    <header class="header DefaultPageTitle" id="profileHeader">
+        <a href="/index.html" class="myButton1"><i class="fa-solid fa-circle-left"></i></a>
         <h3>PROFIL</h3>
     </header>
 
-    <main>
-        <section name="User id & avatar">
-        </section>
-
-        <section name="Biography">
-        </section>
-
-        <section name="User statistics">
+    <main class="main" id="profileMain">
+        <section name="User id & avatar" id="profileMainSection1">
+            <figure><img src="medias/icone_avatar.png" alt="Search icon"></figure>
             <ul>
-                <li>FILMS</li>
-                <li>SÉRIES</li>
-                <li>CONTACTS</li>
+                <li>EVILSAUCISSON</li>
+                <li class="birthday">01/01/1901</li>
+            </ul>
+
+        </section>
+
+        <section name="User statistics"  id="profileMainSection2">
+            <ul>
+                <li id="borderProfile">FILMS</li>
+                <li id="borderProfile">SÉRIES</li>
+                <li id="borderProfile">CONTACTS</li>
             </ul>
         </section>
 
-        <section name="Last comment">
+        <section name="Last comment"  id="profileMainSection3">
         </section>
 
     </main>
 
-    <footer>
-        <img src="medias/logo.png" alt="Logo icon">
+    <footer class="footer iconsFooter">
+        <ul>
+            <li><a href="/index.html" class="myButton1"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="/calendar.html" class="myButton1"><i class="fa-solid fa-calendar-days"></i></a></li>
+            <li><a href="#" class="myButton1"><i class="fa-solid fa-bell"></i></a></li>
+            <li><a href="/profile.html" class="myButton1"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="/parameters.html" class="myButton1"><i class="fa-solid fa-gear"></i></a></li>
+        </ul>
     </footer>
 </body>
 
