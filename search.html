@@ -11,37 +11,114 @@
 </head>
 
 <body>
-    <header>
-        <input type="search" placeholder="Search">
-        <button><input type="image" src="medias/picto-search.png" alt="Search icon"></button>
+    <header class="header">
+        <div class="searchbar">
+            <input type="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <nav class="defaultNav">
+            <div class="menubar">
+                <i class="fa-solid fa-bars" class="collapsible"></i>
+            </div>
+            <ul class="content">
+                <li name="User id & avatar"></li>
+                <li><a href="/index.html" class="myButton1"><i class="fa-solid fa-house"></i>ACCUEIL</a></li>
+                <li><a href="/search.html" class="myButton1"><i class="fa-solid fa-magnifying-glass"></i>RECHERCHER UNE
+                        OEUVRE</a></li>
+                <li><a href="/calendar.html" class="myButton1"><i class="fa-solid fa-calendar-days"></i>CALENDRIER
+                        DES
+                        SORTIES</a></li>
+                <li><a href="/suggestions.html" class="myButton1"><i class="fa-solid fa-dice"></i>SUGGESTION
+                        D'OEUVRES</a></li>
+                <li><a href="#" class="myButton1"><i class="fa-solid fa-bell"></i>NOTIFICATIONS</a></li>
+                <li><a href="/profile.html" class="myButton1"><i class="fa-solid fa-user"></i>MON PROFIL</a></li>
+                <li><a href="/parameters.html" class="myButton1"><i class="fa-solid fa-gear"></i>PARAMÈTRES</a></li>
+                <div class="social">
+                    <li><img src="medias/picto-facebook.png" alt="Facebook icon"></li>
+                    <li><img src="medias/picto-insta.png" alt="Instagram icon"></li>
+                    <li><img src="medias/picto-twitter.png" alt="Twitter icon"></li>
+                </div>
+            </ul>
+        </nav>
     </header>
 
-    <main>
+    <main class="main searchMain">
         <section name="TOP SÉRIES">
             <h3>TOP SÉRIES</h3>
+            <section class="grid">
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 08 JOURS</figcaption>
+                </figure>
+                <p>CHARLEMAGNE CONTRE LES NINJAS</p>
+            </article>
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 12 JOURS</figcaption>
+                </figure>
+                <p>DU MIEL ET DU PÂTÉ</p>
+            </article>
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 24 JOURS</figcaption>
+                </figure>
+                <p>LES BRONZÉS FONT TROTSKI</p>
+            </article>
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 35 JOURS</figcaption>
+                </figure>
+                <p>TITRE CHIANT POUR FILM FRANCAIS CHIANT</p>
+            </article>
+        </section>
         </section>
         <section name="TOP FILMS">
             <h3>TOP FILMS</h3>
+            <section class="grid">
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 08 JOURS</figcaption>
+                </figure>
+                <p>CHARLEMAGNE CONTRE LES NINJAS</p>
+            </article>
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 12 JOURS</figcaption>
+                </figure>
+                <p>DU MIEL ET DU PÂTÉ</p>
+            </article>
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 24 JOURS</figcaption>
+                </figure>
+                <p>LES BRONZÉS FONT TROTSKI</p>
+            </article>
+            <article>
+                <figure class="poster">
+                    <img src="https://picsum.photos/50/75">
+                    <figcaption class="overlay">SORTIE DANS 35 JOURS</figcaption>
+                </figure>
+                <p>TITRE CHIANT POUR FILM FRANCAIS CHIANT</p>
+
+            </article>
+        </section>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer iconsFooter">
         <ul>
-            <li>
-                <input type="image" src="medias/accueil.png"></input>
-            </li>
-            <li>
-                <input type="image" src="medias/calendrier.png"></input>
-            </li>
-            <li>
-                <input type="image" src="medias/notifications.png"></input>
-            </li>
-            <li>
-                <input type="image" src="medias/profil.png"></input>
-            </li>
-            <li>
-                <input type="image" src="medias/parametres.png"></input>
-            </li>
+            <li><a href="/index.html" class="myButton1"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="/calendar.html" class="myButton1"><i class="fa-solid fa-calendar-days"></i></a></li>
+            <li><a href="#" class="myButton1"><i class="fa-solid fa-bell"></i></a></li>
+            <li><a href="/profile.html" class="myButton1"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="/parameters.html" class="myButton1"><i class="fa-solid fa-gear"></i></a></li>
         </ul>
     </footer>
 </body>

@@ -35,6 +35,7 @@ img {
     width: 100%;
     height: auto;
     display: block;
+    vertical-align: middle;
 }
 
 a {
@@ -70,7 +71,7 @@ h4 {
 }
 
 .main {
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .footer {
@@ -417,19 +418,75 @@ h4 {
 /****** CALENDRIER DES SORTIES ******/
 
 #calendarMain {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     background-color: #DD4124;
 }
 
 #calendarMain h3 {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    height: 10vh;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 1em;
+    height: 10%;
 }
 
-#calendarMain ul li img {
+.grid {
+    height: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.grid article {
+    margin: 1.5em;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.poster {
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, .5);
+    position: relative;
+    color: white;
+    font-size: 2rem;
     
+}
+
+.poster img {
+    object-fit: cover;
+}
+
+.poster .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: top left;
+}
+
+.grid figcaption {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.grid p {
+    padding-top: 3px;
+    font-size: 1.2em;
+    line-height: normal;
+    text-align: start;
+    margin: 0;
+}
+
+
+/****** PAGE DE RECHERCHE ******/
+
+.searchMain {
+    background-color: #DD4124;
 }
