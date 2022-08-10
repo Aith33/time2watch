@@ -1,0 +1,15 @@
+{
+    "name": "x/projet",
+    "authors": [
+        {
+            "name": "Paul-Emile JUDE"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
